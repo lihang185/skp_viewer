@@ -1,10 +1,10 @@
 # SKP Viewer
 
-通过ERA逆向分析.skp文件格式，开发的.skp文件viewer，感谢[REA](https://github.com/morluto/rea)开源贡献
+由于SketchUp的版权限制，本项目的目标是通过完全重新编写的代码读写.skp文件
 
-由于SketchUp的版权限制，所有使用SketchupSDK中的.dll读取或写入.skp文件都将侵权
+不依赖SketchupSDK，并且挺提供一个简单的.skp文件viewer检查数据正确性
 
-本项目不依赖SketchupSDK，完全重新编写的C++读写skp代码
+受到REA逆向分析的启发，感谢[REA](https://github.com/morluto/rea)开源贡献
 
 如果需要完整的建模功能，可以查看我的另一个项目：[DeepDraw](https://github.com/lihang185/deepdraw)。
 

@@ -2,9 +2,11 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-An `.skp` file viewer built by reverse-engineering the SKP file format with [REA](https://github.com/morluto/rea). Thanks to the REA project for its open-source contribution.
+Motivated by SketchUp's copyright restrictions, this project aims to read and write `.skp` files using an entirely independent implementation.
 
-This project avoids a dependency on the SketchUp SDK and its licensing requirements by providing an independently written C++ SKP reader.
+It does not depend on the SketchUp SDK and includes a simple `.skp` viewer to help verify the correctness of the parsed data.
+
+Inspired by REA's reverse-engineering approach. Thanks to the [REA](https://github.com/morluto/rea) project for its open-source contribution.
 
 For full modeling capabilities, check out my other project: [DeepDraw](https://github.com/lihang185/deepdraw).
 
