@@ -6,6 +6,8 @@
 
 本项目不依赖SketchupSDK，完全重新编写的C++读写skp代码
 
+如果需要完整的建模功能，可以查看我的另一个项目：[DeepDraw](https://github.com/lihang185/deepdraw)。
+
 viewer使用 PyQt5 和 PyOpenGL
 
 C++ 负责解析模型、拓扑、材质和贴图，并通过 DLL 接口提供数据；Python 负责交互界面和 OpenGL 渲染。运行时无需安装 SketchUp，也不依赖原版 `slapi.dll`。

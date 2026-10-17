@@ -6,6 +6,8 @@ An `.skp` file viewer built by reverse-engineering the SKP file format with [REA
 
 This project avoids a dependency on the SketchUp SDK and its licensing requirements by providing an independently written C++ SKP reader.
 
+For full modeling capabilities, check out my other project: [DeepDraw](https://github.com/lihang185/deepdraw).
+
 The viewer uses **PyQt5 and PyOpenGL**. C++ handles model, topology, material, and texture parsing and exposes the results through a DLL interface. Python provides the interactive interface and OpenGL rendering. Neither SketchUp nor the original `slapi.dll` is required at runtime.
 
 > Currently supports tested SKP 15 / 17 file variants and a subset of compatible reading APIs. Other versions are not yet supported. See [Known Limitations](#known-limitations) for details.
