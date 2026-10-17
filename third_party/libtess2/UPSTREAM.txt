@@ -1,0 +1,5 @@
+Upstream: https://github.com/memononen/libtess2
+Commit: 8dbd6483e920311a58c9af10a10beb278efebc36
+License: LICENSE.txt (SGI Free Software License B 2.0)
+Local change: TESSreal is double instead of float. All consumers must use this header.
+Coordinates are projected into a face-local, normalized 2D frame before tessellation.
