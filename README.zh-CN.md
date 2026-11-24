@@ -4,8 +4,6 @@
 
 不依赖SketchupSDK，并且挺提供一个简单的.skp文件viewer检查数据正确性
 
-受到REA逆向分析的启发，感谢[REA](https://github.com/morluto/rea)开源贡献
-
 如果需要完整的建模功能，可以查看我的另一个项目：[DeepDraw](https://github.com/lihang185/deepdraw)。
 
 viewer使用 PyQt5 和 PyOpenGL
