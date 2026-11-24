@@ -6,8 +6,6 @@ Motivated by SketchUp's copyright restrictions, this project aims to read and wr
 
 It does not depend on the SketchUp SDK and includes a simple `.skp` viewer to help verify the correctness of the parsed data.
 
-Inspired by REA's reverse-engineering approach. Thanks to the [REA](https://github.com/morluto/rea) project for its open-source contribution.
-
 For full modeling capabilities, check out my other project: [DeepDraw](https://github.com/lihang185/deepdraw).
 
 The viewer uses **PyQt5 and PyOpenGL**. C++ handles model, topology, material, and texture parsing and exposes the results through a DLL interface. Python provides the interactive interface and OpenGL rendering. Neither SketchUp nor the original `slapi.dll` is required at runtime.
